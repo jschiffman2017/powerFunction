@@ -12,5 +12,3 @@ userExponent = float(userExponent)
 userPower = power(userBase, userExponent)
 
 print(userPower)
-
- 	
