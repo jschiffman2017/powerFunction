@@ -1,4 +1,5 @@
-#---------- TEST CASES ------------
+from powerFunction import power
+
 print("TEST CASES:")
 print("2 to the power of 0 is {}".format(power(2, 0)))
 print("2 to the power of 3 is {}".format(power(2, 3)))

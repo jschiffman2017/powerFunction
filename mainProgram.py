@@ -7,9 +7,13 @@ while error == True:
 	
 	try: 
 		userBase = float(userBase)
-		userExponent = float(userExponent)
 	except ValueError:
-			print("Sorry, at least one of those is not a number.")
+		print("Sorry, your base is not a number.")
+		error = True
+	try:
+		userExponent = int(userExponent)
+	except ValueError:
+			print("Sorry, your exponent is not an integer.")
 			error = True
 			
 	else:
